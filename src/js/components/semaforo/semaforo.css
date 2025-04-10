@@ -1,0 +1,88 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangulo {
+    background-color: black;
+    height: 80px;
+    width: 20px;
+    margin-left: 39%;
+}
+
+.semaforo {
+    height: 550px;
+    width: 300px;
+    padding: 12px;
+    border: solid;
+    background-color: black;
+    border-radius: 5%;
+}
+
+.color1 {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background: red;
+    border: solid;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.color2 {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background: yellow;
+    border: solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.color3 {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background: green;
+    border: solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.color4 {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: solid;
+    margin-left: auto;
+    margin-right: auto;
+    background: #5c4766;
+
+}
+
+.botones {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.boton,
+.btn-morado {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-morado {
+    background-color: #800080;
+    color: white;
+}
